@@ -1,9 +1,8 @@
 ﻿// Программа проверяет пятизначное число на палиндромом
 
 System.Console.WriteLine("Введите число:   ");
-string number = Console.ReadLine();
+string number = Console.ReadLine().Replace(" ", "");
 int length = number.Length;
-string txtToCheck = number.Replace(" ","");  
 
 bool Palind()
 {
