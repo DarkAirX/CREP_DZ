@@ -50,7 +50,7 @@ int[,] Create2DArray(int n,int m,int min=0,int max=100)
 }
 
 //2 способ вернуть массив
-void Create2DArray2(int n,int m,out int[,] a)
+/*void Create2DArray2(int n,int m,out int[,] a)
 {
     a=new int[n,m];//создаем массив
     Random random=new Random();
@@ -58,4 +58,4 @@ void Create2DArray2(int n,int m,out int[,] a)
         for(int j=0;j<a.GetLength(1);j++)//перебираем столбцы
             a[i,j]=random.Next(0,100);
 
-}
+}*/
